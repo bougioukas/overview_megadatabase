@@ -1,5 +1,8 @@
 ---
 title: "OMG Project"
 site: distill::distill_website
-listing: posts
+#listing: posts
 ---
+
+This website presents the first database that contains a large number of overviews of reviews. The database provides a
+comprehensive source that can be freely used by all researchers to easily identify all overviews of reviews on a specific topic, to avoid duplication of effort and reduce research waste.
