@@ -6,14 +6,14 @@
       "description": "Some additional details about the blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-05-01T18:45:15+03:00"
+      "last_modified": "2022-05-01T18:48:00+03:00"
     },
     {
       "path": "index.html",
       "title": "Mega Database for overviews of reviews",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-05-01T18:45:16+03:00"
+      "last_modified": "2022-05-01T18:48:01+03:00"
     }
   ],
   "collections": ["posts/posts.json"]
