@@ -1,0 +1,9 @@
+---
+title: "Database"
+---
+
+```{r, layout="l-body-outset", echo=FALSE}
+
+dat <- readxl::read_excel(here::here("data", "all_overviews-updated-inriched2.xlsx"))
+DT::datatable(dat, extensions = 'Responsive')
+```

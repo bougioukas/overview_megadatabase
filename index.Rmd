@@ -1,5 +1,5 @@
 ---
-title: "Mega Database for overviews of reviews"
+title: "OMG Project"
 site: distill::distill_website
 listing: posts
 ---
