@@ -1,13 +1,12 @@
 ---
-title: "Welcome to Megadatabase for overviews"
+title: "Welcome to Mega database for overviews of reviews"
 description: |
-  Welcome to our new blog, Megadatabase for overviews. We hope you enjoy 
-  reading what we have to say!
+  Welcome to our new blog, Mega database for overviews of reviews. We hope you enjoy reading what we have to say!
 author:
-  - name: Nora Jones 
-    url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
+  - name: Konstantinos I. Bougioukas 
+    url: https://orcid.org/0000-0002-6533-1391
+    affiliation: Aristotle University of Thessaloniki, Greece
+    affiliation_url: https://github.com/bougioukas
 date: 05-01-2022
 output:
   distill::distill_article:
