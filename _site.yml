@@ -1,0 +1,12 @@
+name: "overview_megadatabase"
+title: "Megadatabase for overviews"
+description: |
+  Megadatabase for overviews
+output_dir: "_site"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article
