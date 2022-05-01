@@ -5,5 +5,9 @@ title: "Database"
 ```{r, layout="l-body-outset", echo=FALSE}
 
 dat <- readxl::read_excel(here::here("data", "all_overviews-updated-inriched2.xlsx"))
-DT::datatable(dat, extensions = 'Responsive')
+#<a href="/about/about_team.htm">team</a> 
+  
+dat$doi <- paste0('<a href="', dat$doi,'">',dat$doi ,"</a>")
+
+DT::datatable(dat, escape = FALSE, extensions = 'Responsive')
 ```
