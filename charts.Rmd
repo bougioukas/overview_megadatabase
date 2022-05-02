@@ -3,22 +3,30 @@ title: "Charts"
 ---
 
 
-# `Publication by year`
 
-```{r, layout="l-body-outset", echo=FALSE}
+```{r, layout="l-body-outset", echo = FALSE}
+
+dat <- readxl::read_excel(here::here("data", "all_overviews-updated-inriched2.xlsx"))
+```
+
+# Total number of publications: `r nrow(dat)`
+
+
+
+## Publication by year
+
+```{r, layout="l-middle-outset", echo=FALSE}
 library(tidyverse)
 library(highcharter)
 
-pby <- readxl::read_excel(here::here("data", "all_overviews-updated-inriched2.xlsx")) %>% 
+pby <- dat %>% 
   count(publication_year, name = "Counts")
 
-pby_chart <- pby %>%
+pby %>%
   hchart('column', hcaes(x = publication_year, y = Counts),
          style = list(fontWeight = "bold", fontSize = "30px")) %>% 
   hc_xAxis(title = list(text = "Publication Year")) %>% 
   hc_add_theme(hc_theme_economist())
-
-pby_chart
 
 ```
 

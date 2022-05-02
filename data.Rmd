@@ -2,9 +2,18 @@
 title: "Database"
 ---
 
-```{r, layout="l-body-outset", echo=FALSE}
+```{r, layout="l-body-outset", echo = FALSE}
 
 dat <- readxl::read_excel(here::here("data", "all_overviews-updated-inriched2.xlsx"))
+```
+
+
+# Total number of publications: `r nrow(dat)`
+
+
+
+```{r, layout="l-body-outset", echo=FALSE}
+
 #<a href="/about/about_team.htm">team</a> 
   
 dat$doi <- paste0('<a href="', dat$doi,'">',dat$doi ,"</a>")
@@ -13,3 +22,5 @@ DT::datatable(dat,
              options = list(searchHighlight = TRUE),
               escape = FALSE, extensions = 'Responsive')
 ```
+
+
