@@ -25,7 +25,7 @@ The database will be regularly updated with new data and studies.
 
 **corresponding_author_affiliation:** the affiliation (e.g., university, institute) of the corresponding author
 
-**subject_area:** main subject area (based on the list of subject areas provided by medRxiv
+**subject_area:** main subject area (based on the list of subject areas provided by medRxiv)
 
 **icd_11_disease:** disease (based on the International Classification of Diseases 11th Revision[ICD-11])
 

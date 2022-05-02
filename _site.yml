@@ -9,6 +9,7 @@ navbar:
       href: index.html 
     - text: "Database"
       href: data.html      
-
+    - text: "Charts"
+      href: charts.html  
 
 output: distill::distill_article
