@@ -2,9 +2,10 @@
 title: "Database"
 ---
 
-```{r, layout="l-body-outset", echo = FALSE}
+```{r, echo = FALSE}
 
 dat <- readxl::read_excel(here::here("data", "all_overviews-updated-inriched2.xlsx"))
+
 ```
 
 
@@ -12,15 +13,22 @@ dat <- readxl::read_excel(here::here("data", "all_overviews-updated-inriched2.xl
 
 
 
-```{r, layout="l-body-outset", echo=FALSE}
+```{r, layout="l-page-outset", echo=FALSE}
 
 #<a href="/about/about_team.htm">team</a> 
   
 dat$doi <- paste0('<a href="', dat$doi,'">',dat$doi ,"</a>")
 
 DT::datatable(dat, 
-             options = list(searchHighlight = TRUE),
-              escape = FALSE, extensions = 'Responsive')
+             options = list(searchHighlight = TRUE, fixedHeader = TRUE, dom = 'Pfrtip', colReorder = TRUE,
+columnDefs = list(list(
+    searchPanes = list(show = FALSE), targets = c(1:4, 6:9, 12:14, 16) ))),
+             escape = FALSE, 
+             extensions = c('Select', 'SearchPanes', 'Responsive',
+                            'FixedHeader', 'ColReorder')
+)
+
+
 ```
 
 
