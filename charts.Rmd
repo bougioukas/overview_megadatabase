@@ -6,7 +6,7 @@ title: "Charts"
 
 ```{r, layout="l-body-outset", echo = FALSE}
 
-dat <- readxl::read_excel(here::here("data", "all_overviews-updated-inriched2.xlsx"))
+dat <- readxl::read_excel(here::here("data", "all_overviews-updated2-inriched2.xlsx"))
 ```
 
 # Total number of publications: `r nrow(dat)`
