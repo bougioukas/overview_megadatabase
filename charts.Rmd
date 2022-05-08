@@ -20,10 +20,10 @@ library(tidyverse)
 library(highcharter)
 
 pby <- dat %>% 
-  count(publication_year, name = "Counts")
+  count(`publication year`, name = "Counts")
 
 pby %>%
-  hchart('column', hcaes(x = publication_year, y = Counts),
+  hchart('column', hcaes(x = `publication year`, y = Counts),
          style = list(fontWeight = "bold", fontSize = "30px")) %>% 
   hc_xAxis(title = list(text = "Publication Year")) %>% 
   hc_add_theme(hc_theme_economist())
