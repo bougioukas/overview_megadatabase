@@ -17,7 +17,7 @@ dat <- readxl::read_excel(here::here("data", "all_overviews-updated2-inriched2.x
 
 #<a href="/about/about_team.htm">team</a> 
   
-dat$doi <- paste0('<a href="', dat$doi,'">',dat$doi ,"</a>")
+dat$doi <- paste0('<a target="_blank" rel="noopener noreferrer" href="', dat$doi,'">',dat$doi ,"</a>")
 
 DT::datatable(dat, 
              options = list(searchHighlight = TRUE, fixedHeader = TRUE, dom = 'Pfrtip', colReorder = TRUE,
