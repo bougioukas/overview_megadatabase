@@ -1,0 +1,38 @@
+---
+title: "Methods Database"
+---
+
+
+# Methods guidance papers
+
+
+```{r, echo = FALSE}
+
+dat2 <- readxl::read_excel(here::here("data", "methods.xlsx"))
+
+```
+
+
+
+```{r, layout="l-page-outset", echo=FALSE}
+
+#<a href="/about/about_team.htm">team</a> 
+  
+dat2$doi <- paste0('<a target="_blank" rel="noopener noreferrer" href="', dat2$doi,'">',dat2$doi ,"</a>")
+
+DT::datatable(dat2, 
+             options = list(searchHighlight = TRUE, fixedHeader = TRUE, colReorder = TRUE,
+ initComplete = JS(
+    "function(settings, json) {",
+    "$(this.api().table().header()).css({'background-color': '#3e831d', 'color': '#ffffff'});",
+    "}")
+
+),
+             escape = FALSE, 
+             extensions = c('Responsive',
+                            'FixedHeader', 'ColReorder')
+)
+
+```
+
+

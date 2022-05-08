@@ -10,6 +10,8 @@ navbar:
     - text: "Database"
       href: data.html      
     - text: "Charts"
-      href: charts.html  
+      href: charts.html
+    - text: "Methods Database"
+      href: guidance.html 
 
 output: distill::distill_article

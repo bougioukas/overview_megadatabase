@@ -87,26 +87,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Mega database for overviews of reviews: OMG Project</title>
+  <title>Mega database for overviews of reviews: Methods Database</title>
 
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Mega database for overviews of reviews: OMG Project"/>
+  <meta property="og:title" content="Mega database for overviews of reviews: Methods Database"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Mega database for overviews of reviews"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Mega database for overviews of reviews: OMG Project"/>
+  <meta property="twitter:title" content="Mega database for overviews of reviews: Methods Database"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site"]}},"value":[{"type":"character","attributes":{},"value":["OMG Project"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title"]}},"value":[{"type":"character","attributes":{},"value":["Methods Database"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2035,6 +2035,24 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   <!--/radix_placeholder_distill-->
   <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+  <script src="site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+  <link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+  <script src="site_libs/datatables-binding-0.22/datatables.js"></script>
+  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <link href="site_libs/dt-core-1.11.3/css/jquery.dataTables.min.css" rel="stylesheet" />
+  <link href="site_libs/dt-core-1.11.3/css/jquery.dataTables.extra.css" rel="stylesheet" />
+  <script src="site_libs/dt-core-1.11.3/js/jquery.dataTables.min.js"></script>
+  <link href="site_libs/dt-ext-responsive-1.11.3/css/responsive.dataTables.min.css" rel="stylesheet" />
+  <script src="site_libs/dt-ext-responsive-1.11.3/js/dataTables.responsive.min.js"></script>
+  <link href="site_libs/dt-ext-fixedheader-1.11.3/css/fixedHeader.dataTables.min.css" rel="stylesheet" />
+  <script src="site_libs/dt-ext-fixedheader-1.11.3/js/dataTables.fixedHeader.min.js"></script>
+  <link href="site_libs/dt-ext-colreorder-1.11.3/css/colReorder.dataTables.min.css" rel="stylesheet" />
+  <script src="site_libs/dt-ext-colreorder-1.11.3/js/dataTables.colReorder.min.js"></script>
+  <link href="site_libs/dt-plugin-searchhighlight-1.11.3/source.css" rel="stylesheet" />
+  <script src="site_libs/dt-plugin-searchhighlight-1.11.3/jquery.highlight.js"></script>
+  <script src="site_libs/dt-plugin-searchhighlight-1.11.3/source.min.js"></script>
+  <link href="site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
+  <script src="site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2054,7 +2072,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"OMG Project","authors":[]}
+{"title":"Methods Database","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2079,7 +2097,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>OMG Project</h1>
+<h1>Methods Database</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 
@@ -2087,24 +2105,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
-<p>This website presents the first database that contains a large number of overviews of reviews. The database provides a comprehensive source that can be freely used by all researchers to easily identify all overviews of reviews on a specific topic, to avoid duplication of effort and reduce research waste. The database will be regularly updated with new data and studies.</p>
-<h2 id="codebook">Codebook</h2>
-<p><strong>first author:</strong> the name of the first author</p>
-<p><strong>title:</strong> the publication title</p>
-<p><strong>publication year:</strong> the year when the article was published in the issue</p>
-<p><strong>journal:</strong> the journal where the article was published</p>
-<p><strong>subject_area:</strong> main subject area (based on the list of subject areas provided by medRxiv)</p>
-<p><strong>doi:</strong> digital object identifier of the publication</p>
-<p><strong>corresponding author country:</strong> the country of origin of the corresponding author. If the corresponding author reports multiple institutional affiliations from different countries, the country is chosen based on the domain of the correspondence email address</p>
-<p><strong>corresponding author affiliation:</strong> the affiliation (e.g., university, institute) of the corresponding author</p>
-<p><strong>title terminology:</strong> nomenclature related to the evidence synthesis (e.g., overview, meta-review, umbrella review) reported in the tile of the article</p>
-<p><strong>research question:</strong> type of overview based on the research questions (e.g., intervention, association, prediction, economic evaluation etc.)</p>
-<p><strong>method:</strong> methodological approach used in overview (e.g., systematic, living, rapid, scoping etc.)</p>
-<p><strong>included studies:</strong> the type of studies that were considered for inclusion (only systematic reviews or other study types)</p>
-<p><strong>number of SRs:</strong> number of included systematic reviews</p>
-<p><strong>intervention:</strong> interventions that were examined in the article</p>
-<p><strong>icd11 parent:</strong> parent category of the disease (based on the International Classification of Diseases 11th Revision[ICD-11])</p>
-<p><strong>icd11 disease:</strong> disease (based on the International Classification of Diseases 11th Revision[ICD-11])</p>
+<h1 id="methods-guidance-papers">Methods guidance papers</h1>
+<div class="layout-chunk" data-layout="l-body">
+
+</div>
+<div class="layout-chunk" data-layout="l-page-outset">
+<div id="htmlwidget-c78923f2b0c5bf1511ac" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-c78923f2b0c5bf1511ac">{"x":{"filter":"none","vertical":false,"extensions":["Responsive","FixedHeader","ColReorder"],"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20"],["Gates M.","Hartling L.","Hennessy E.A.","Hennessy E.A.","Hunt H.","Lunny C.","Lunny C.","Lunny C.","Lunny C.","Lunny C.","Lunny C.","Martinic M.K.","Pieper D.","Pieper D.","Pieper D.","Pieper D.","Buchter R.B.","Pieper D.","Pieper D.","Pollock A."],["Guidance for overviews of reviews continues to accumulate, but important challenges remain: a scoping review","A Descriptive Analysis of Overviews of Reviews Published between 2000 and 2011","Best Practice Guidelines and Essential Methodological Steps to Conduct Rigorous and Systematic Meta-Reviews","Examining overlap of included studies in meta-reviews: Guidance for using the corrected covered area index","An introduction to overviews of reviews: planning a relevant research question and objective for an overview","Retrieval of overviews of systematic reviews in MEDLINE was improved by the development of an objectively derived and validated search strategy","Toward a comprehensive evidence map of overview of systematic review methods: paper 1—purpose, eligibility, search and data extraction","Toward a comprehensive evidence map of overview of systematic review methods: paper 2—risk of bias assessment; synthesis, presentation and summary of the findings; and assessment of the certainty of the evidence","Overviews of reviews incompletely report methods for handling overlapping, discordant, and problematic data","A new taxonomy was developed for overlap across 'overviews of systematic reviews': A meta-research study of research waste","Managing overlap of primary study results across systematic reviews: practical considerations for authors of overviews of reviews","Definition of a systematic review used inoverviews of systematic reviews, metaepidemiological studies and textbooks","Overviews of reviews often have limited rigor: a systematic review","Methodological approaches in conducting overviews: current state in HTA agencies","Systematic review finds overlapping reviews were not mentioned in every other overview","Up-to-dateness of reviews is often neglected in overviews: a systematic review","Most overviews of Cochrane reviews neglected potential biases from dual authorship","Impact of choice of quality appraisal tool for systematic reviews in overviews","LETTER TO THE EDITOR-Language restrictions in systematic reviews should not be imposed in the search strategy but in the eligibility criteria if necessary","An algorithm was developed to assign GRADE levels of evidence to comparisons within systematic reviews"],[2020,2012,2019,2019,2018,2016,2017,2018,2020,2021,2021,2019,2012,2014,2014,2014,2016,2014,2021,2016],["Systematic Reviews","PLOS One","Applied Psychology: Health and Well-Being","Research Synthesis Methods","Systematic Reviews","Journal of Clinical Epidemiology","Systematic Reviews","Systematic Reviews","Journal of Clinical Epidemiology","Research Synthesis Methods","BMC Medical Research Methodology","BMC Medical Research Methodology","Journal of Clinical Epidemiology","Research Synthesis Methods","Journal of Clinical Epidemiology","Journal of Clinical Epidemiology","Journal of Clinical Epidemiology","Journal of Evidence-Based Medicine","Journal of Clinical Epidemiology","Journal of Clinical Epidemiology"],["<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://doi.org/10.1186/s13643-020-01509-0\">https://doi.org/10.1186/s13643-020-01509-0<\/a>","<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://doi.org/10.1371/journal.pone.0049667\">https://doi.org/10.1371/journal.pone.0049667<\/a>","<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://doi.org/10.1111/aphw.12169\">https://doi.org/10.1111/aphw.12169<\/a>","<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://doi.org/10.1002/jrsm.1390\">https://doi.org/10.1002/jrsm.1390<\/a>","<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://doi.org/10.1186/s13643-018-0695-8\">https://doi.org/10.1186/s13643-018-0695-8<\/a>","<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://dx.doi.org/10.1016/j.jclinepi.2015.12.002\">http://dx.doi.org/10.1016/j.jclinepi.2015.12.002<\/a>","<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://doi.org/10.1186/s13643-017-0617-1\">https://doi.org/10.1186/s13643-017-0617-1<\/a>","<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://doi.org/10.1186/s13643-018-0784-8\">https://doi.org/10.1186/s13643-018-0784-8<\/a>","<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://doi.org/10.1016/j.jclinepi.2019.09.025\">https://doi.org/10.1016/j.jclinepi.2019.09.025<\/a>","<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://doi.org/10.1002/jrsm.1542\">https://doi.org/10.1002/jrsm.1542<\/a>","<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://doi.org/10.1186/s12874-021-01269-y\">https://doi.org/10.1186/s12874-021-01269-y<\/a>","<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://doi.org/10.1186/s12874-019-0855-0\">https://doi.org/10.1186/s12874-019-0855-0<\/a>","<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://dx.doi.org/10.1016/j.jclinepi.2012.06.015\">http://dx.doi.org/10.1016/j.jclinepi.2012.06.015<\/a>","<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://doi.org/10.1002/jrsm.1107\">https://doi.org/10.1002/jrsm.1107<\/a>","<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://dx.doi.org/10.1016/j.jclinepi.2013.11.007\">http://dx.doi.org/10.1016/j.jclinepi.2013.11.007<\/a>","<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://dx.doi.org/10.1016/j.jclinepi.2014.08.008\">http://dx.doi.org/10.1016/j.jclinepi.2014.08.008<\/a>","<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://dx.doi.org/10.1016/j.jclinepi.2016.04.008\">http://dx.doi.org/10.1016/j.jclinepi.2016.04.008<\/a>","<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://doi.org/10.1111/jebm.12097\">https://doi.org/10.1111/jebm.12097<\/a>","<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://doi.org/10.1016/j.jclinepi.2020.12.027\">https://doi.org/10.1016/j.jclinepi.2020.12.027<\/a>","<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://dx.doi.org/10.1016/j.jclinepi.2015.08.013\">http://dx.doi.org/10.1016/j.jclinepi.2015.08.013<\/a>"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>first author<\/th>\n      <th>title<\/th>\n      <th>publication year<\/th>\n      <th>journal<\/th>\n      <th>doi<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"searchHighlight":true,"fixedHeader":true,"colReorder":true,"initComplete":"function(settings, json) {\n$(this.api().table().header()).css({'background-color': '#3e831d', 'color': '#ffffff'});\n}","columnDefs":[{"className":"dt-right","targets":3},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"responsive":true}},"evals":["options.initComplete"],"jsHooks":[]}</script>
+</div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
