@@ -12,36 +12,34 @@ The database will be regularly updated with new data and studies.
 
 ## Codebook
 
-**first_author:** the name of the first author
+**first author:** the name of the first author
 
 **title:** the publication title 
 
-**publication_year:** the year when the article was published in the issue
+**publication year:** the year when the article was published in the issue
 
 **journal:** the journal where the article was published
 
-**corresponding_author_country:** the country of origin of the corresponding author. If the corresponding author reports multiple institutional affiliations from different countries, the country is chosen based on the domain of the correspondence email address
-
-**corresponding_author_affiliation:** the affiliation (e.g., university, institute) of the corresponding author
-
 **subject_area:** main subject area (based on the list of subject areas provided by medRxiv)
 
-                  
 **doi:** digital object identifier of the publication 
 
+**corresponding author country:** the country of origin of the corresponding author. If the corresponding author reports multiple institutional affiliations from different countries, the country is chosen based on the domain of the correspondence email address
 
-**title_terminology:** nomenclature related to the evidence synthesis (e.g., overview, meta-review, umbrella review) reported in the tile of the article
+**corresponding author affiliation:** the affiliation (e.g., university, institute) of the corresponding author
 
-**research_question:** type of overview based on the research questions (e.g., intervention, association, prediction, economic evaluation etc.)
+**title terminology:** nomenclature related to the evidence synthesis (e.g., overview, meta-review, umbrella review) reported in the tile of the article
+
+**research question:** type of overview based on the research questions (e.g., intervention, association, prediction, economic evaluation etc.)
 
 **method:** methodological approach used in overview (e.g., systematic, living, rapid, scoping etc.)
 
-**included_studies:** the type of studies that were considered for inclusion (only systematic reviews or other study types)
+**included studies:** the type of studies that were considered for inclusion (only systematic reviews or other study types)
 
-**number_of_SRs:** number of included systematic reviews
+**number of SRs:** number of included systematic reviews
 
 **intervention:** interventions that were examined in the article
 
-**icd_11_parent:** parent category of the disease (based on the International Classification of Diseases 11th Revision[ICD-11]) 
+**icd11 parent:** parent category of the disease (based on the International Classification of Diseases 11th Revision[ICD-11]) 
 
-**icd_11_disease:** disease (based on the International Classification of Diseases 11th Revision[ICD-11])
+**icd11 disease:** disease (based on the International Classification of Diseases 11th Revision[ICD-11])
