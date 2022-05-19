@@ -1,7 +1,7 @@
 name: "overview_megadatabase"
-title: "Mega database for overviews of reviews"
+title: "Mega-database for overviews of reviews"
 description: |
-  Mega database for overviews of reviews
+  Mega-database for overviews of reviews
 output_dir: "_site"
 navbar:
   right:
