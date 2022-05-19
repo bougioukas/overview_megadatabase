@@ -9,7 +9,8 @@ dat <- readxl::read_excel(here::here("data", "all_overviews-updated2-inriched2.x
 ```
 
 
-# Total number of publications: `r nrow(dat)`
+# Total number of publications: `r nrow(dat)` 
+Last update `r format(Sys.Date(), "%d\\/%m\\/%Y")`
 
 
 

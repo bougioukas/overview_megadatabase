@@ -4,7 +4,7 @@ title: "Methods Database"
 
 
 # Methods guidance papers
-
+Last update `r format(Sys.Date(), "%d\\/%m\\/%Y")`
 
 ```{r, echo = FALSE}
 
