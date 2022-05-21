@@ -25,7 +25,7 @@ The databases will be regularly updated with new data and studies.
 
 **journal:** the journal where the article was published
 
-**subject_area:** main subject area (based on the list of subject areas provided by medRxiv)
+**subject area:** main subject area (based on the list of subject areas provided by medRxiv)
 
 **doi:** digital object identifier of the publication 
 
