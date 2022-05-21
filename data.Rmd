@@ -20,7 +20,7 @@ Last update `r format(Sys.Date(), "%d\\/%m\\/%Y")`
   
 dat$doi <- paste0('<a target="_blank" rel="noopener noreferrer" href="', dat$doi,'">',dat$doi ,"</a>")
 
-DT::datatable(dat,
+DT::datatable(dat, filter = 'top',
              options = list(searchHighlight = TRUE, fixedHeader = TRUE, dom = 'Pfrtip', colReorder = TRUE,
 columnDefs = list(list(
     searchPanes = list(show = FALSE), targets = c(1:4, 6:9, 12:14, 16) )),
