@@ -12,8 +12,6 @@ dat <- readxl::read_excel(here::here("data", "all_overviews-updated2-inriched2.x
 # Total number of publications: `r nrow(dat)` 
 Last update `r format(Sys.Date(), "%d\\/%m\\/%Y")`
 
-
-
 ```{r, layout="l-page-outset", echo=FALSE}
 
 #<a href="/about/about_team.htm">team</a> 
@@ -21,7 +19,7 @@ Last update `r format(Sys.Date(), "%d\\/%m\\/%Y")`
 dat$doi <- paste0('<a target="_blank" rel="noopener noreferrer" href="', dat$doi,'">',dat$doi ,"</a>")
 
 DT::datatable(dat, 
-             options = list(searchHighlight = TRUE, fixedHeader = TRUE, dom = 'Pfrtip', colReorder = TRUE,
+             options = list(searchHighlight = TRUE, fixedHeader = TRUE, dom = 'Pfrtip', colReorder = TRUE, pageLength = 5,
 columnDefs = list(list(
     searchPanes = list(show = FALSE), targets = c(1:4, 6:9, 12:14, 16) )),
  initComplete = JS(
@@ -34,7 +32,6 @@ columnDefs = list(list(
              extensions = c('Select', 'SearchPanes', 'Responsive',
                             'FixedHeader', 'ColReorder')
 )
-
 
 ```
 
