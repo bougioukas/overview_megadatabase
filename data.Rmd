@@ -31,8 +31,8 @@ columnDefs = list(list(
              escape = FALSE, 
              extensions = c('Select', 'SearchPanes', 'Responsive',
                             'FixedHeader', 'ColReorder')
-)
-
+) |> 
+DT::formatStyle('doi',  color = 'blue')
 ```
 
 
