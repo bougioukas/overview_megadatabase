@@ -3,6 +3,7 @@ title: "Mega-database for overviews of reviews"
 description: |
   Mega-database for overviews of reviews
 output_dir: "_site"
+theme: theme.css
 navbar:
   logo:
     image: omg.png
@@ -23,5 +24,10 @@ navbar:
           href: guidance.html 
     - text: "Charts"
       href: charts.html
-
+    - icon: bfa-brands fa-twitter
+      href: https://twitter.com/Bugiukas
+    - icon: fa-brands fa-github
+      href: https://github.com/bougioukas 
+      
 output: distill::distill_article
+
