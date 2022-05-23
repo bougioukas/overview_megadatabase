@@ -1,6 +1,5 @@
 ---
-title: "Information sources"
+title: "Search sources"
 ---
 
-
-To identify all published overviews of reviews ...
+The main aim of this repository is to identify all of the published overviews of reviews relevant for health decision-making.

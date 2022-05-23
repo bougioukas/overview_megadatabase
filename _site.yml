@@ -12,7 +12,7 @@ navbar:
       href: index.html
     - text: "Info"
       menu:
-        - text: "Information Sources"
+        - text: "Search sources"
           href: sources.html
         - text: "Codebook"
           href: codebook.html 
