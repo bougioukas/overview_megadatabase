@@ -3,7 +3,12 @@ title: "OMG Project"
 site: distill::distill_website
 #listing: posts
 ---
-Last update `r format(Sys.Date(), "%d\\/%m\\/%Y")`
+
+
+```{r, echo=FALSE, out.width="30%", fig.align = 'center'}
+knitr::include_graphics("omg.png")
+```
+
 
 The **OMG** project stands for "**O**verviews: **M**ethodology and **G**uidance".
 
@@ -15,7 +20,7 @@ Methodological papers relevant to overviews are included in the tab named "Metho
 The databases will be regularly updated with new data and studies.
 
 
-
+Last update `r format(Sys.Date(), "%d\\/%m\\/%Y")`
 
 
 
