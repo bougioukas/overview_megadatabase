@@ -1,5 +1,5 @@
 ---
-title: "OMG Project"
+title: "The OMG Project"
 site: distill::distill_website
 #listing: posts
 ---
