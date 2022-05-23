@@ -4,9 +4,17 @@ description: |
   Mega-database for overviews of reviews
 output_dir: "_site"
 navbar:
+  logo:
+    image: omg.png
   right:
     - text: "The OMG Project"
-      href: index.html 
+      href: index.html
+    - text: "About"
+      menu:
+        - text: "Information Sources"
+          href: sources.html
+        - text: "Codebook"
+          href: codebook.html 
     - text: "Database"
       href: data.html      
     - text: "Charts"

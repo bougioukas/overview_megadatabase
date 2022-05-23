@@ -1,0 +1,40 @@
+---
+title: "Codebook"
+---
+
+
+
+## Data elements that are collected for each publication
+
+
+**first author:** the name of the first author
+
+**title:** the publication title 
+
+**publication year:** the year when the article was published in the issue
+
+**journal:** the journal where the article was published
+
+**subject area:** main subject area (based on the list of subject areas provided by medRxiv)
+
+**doi:** digital object identifier of the publication 
+
+**corresponding author country:** the country of origin of the corresponding author. If the corresponding author reports multiple institutional affiliations from different countries, the country is chosen based on the domain of the correspondence email address
+
+**corresponding author affiliation:** the affiliation (e.g., university, institute) of the corresponding author
+
+**title terminology:** nomenclature related to the evidence synthesis (e.g., overview, meta-review, umbrella review) reported in the tile of the article
+
+**research question:** type of overview based on the research questions (e.g., intervention, association, prediction, economic evaluation etc.)
+
+**method:** methodological approach used in overview (e.g., systematic, living, rapid, scoping etc.)
+
+**included studies:** the type of studies that were considered for inclusion (only systematic reviews or other study types)
+
+**number of SRs:** number of included systematic reviews
+
+**intervention:** interventions that were examined in the article
+
+**icd11 parent:** parent category of the disease (based on the International Classification of Diseases 11th Revision[ICD-11]) 
+
+**icd11 disease:** disease (based on the International Classification of Diseases 11th Revision[ICD-11])
