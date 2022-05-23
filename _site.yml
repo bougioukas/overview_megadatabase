@@ -9,17 +9,19 @@ navbar:
   right:
     - text: "The OMG Project"
       href: index.html
-    - text: "About"
+    - text: "Info"
       menu:
         - text: "Information Sources"
           href: sources.html
         - text: "Codebook"
           href: codebook.html 
-    - text: "Database"
-      href: data.html      
+    - text: "Databases"
+      menu:
+        - text: "Overviews Database"
+          href: data.html
+        - text: "Methods Database"
+          href: guidance.html 
     - text: "Charts"
       href: charts.html
-    - text: "Methods Database"
-      href: guidance.html 
 
 output: distill::distill_article
