@@ -24,7 +24,8 @@ pby <- dat %>%
 
 pby %>%
   hchart('column', hcaes(x = `publication year`, y = Counts),
-         style = list(fontWeight = "bold", fontSize = "30px")) %>% 
+         style = list(fontWeight = "bold", fontSize = "30px"),
+         name = "Counts") %>% 
   hc_xAxis(title = list(text = "Publication Year")) %>% 
   hc_add_theme(hc_theme_economist())
 
