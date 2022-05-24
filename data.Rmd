@@ -19,7 +19,7 @@ Last update `r format(Sys.Date(), "%d\\/%m\\/%Y")`
 dat$doi <- paste0('<a target="_blank" rel="noopener noreferrer" href="', dat$doi,'">',dat$doi ,"</a>")
 
 DT::datatable(dat, 
-             options = list(searchHighlight = TRUE, fixedHeader = TRUE, dom = 'Pfrtip', colReorder = TRUE,
+             options = list(searchHighlight = TRUE, fixedHeader = TRUE, dom = 'Pfrtip', colReorder = FALSE,
 columnDefs = list(list(
     searchPanes = list(show = FALSE), targets = c(1:4, 6:9, 12:14, 16) ),
     
@@ -42,7 +42,9 @@ list(
              extensions = c('Select', 'SearchPanes', 'Responsive',
                             'FixedHeader', 'ColReorder')
 ) |> 
-DT::formatStyle('doi',  color = 'blue')
+DT::formatStyle('doi',  color = 'blue') |>
+DT::formatStyle('publication year', textAlign = 'center')  
+
 ```
 
 
