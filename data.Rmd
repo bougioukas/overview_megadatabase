@@ -19,27 +19,32 @@ Last update `r format(Sys.Date(), "%d\\/%m\\/%Y")`
 dat$doi <- paste0('<a target="_blank" rel="noopener noreferrer" href="', dat$doi,'">',dat$doi ,"</a>")
 
 DT::datatable(dat, 
-             options = list(searchHighlight = TRUE, fixedHeader = TRUE, dom = 'Pfrtip', colReorder = FALSE,
+             options = list(searchHighlight = TRUE, 
+                            fixedHeader = TRUE, 
+                            dom = 'Blfrtip', colReorder = FALSE, 
+                            #scrollX = TRUE, 
+                            buttons = list("searchPanes"),
 columnDefs = list(list(
     searchPanes = list(show = FALSE), targets = c(1:4, 6:9, 12:14, 16) ),
     
 list(
   targets = 2,
-  render = JS(
+  render = DT::JS(
     "function(data, type, row, meta) {",
     "return type === 'display' && data.length > 100 ?",
     "'<span title=\"' + data + '\">' + data.substr(0, 100) + '...</span>' : data;",
     "}"))
 
     ),
- initComplete = JS(
+ initComplete = DT::JS(
     "function(settings, json) {",
     "$(this.api().table().header()).css({'background-color': '#7575a3', 'color': '#f2f2f2'});",
     "}")
 
 ),
              escape = FALSE, 
-             extensions = c('Select', 'SearchPanes', 'Responsive',
+             extensions = c('Select', 'SearchPanes', 'Buttons',
+                            'Responsive',
                             'FixedHeader', 'ColReorder')
 ) |> 
 DT::formatStyle('doi',  color = 'blue') |>

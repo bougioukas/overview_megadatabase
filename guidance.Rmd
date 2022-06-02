@@ -22,7 +22,7 @@ dat2$doi <- paste0('<a target="_blank" rel="noopener noreferrer" href="', dat2$d
 
 DT::datatable(dat2, 
              options = list(searchHighlight = TRUE, fixedHeader = TRUE, colReorder = FALSE,
- initComplete = JS(
+ initComplete = DT::JS(
     "function(settings, json) {",
     "$(this.api().table().header()).css({'background-color': '#3e831d', 'color': '#ffffff'});",
     "}")
