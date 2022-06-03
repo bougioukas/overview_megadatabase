@@ -21,7 +21,9 @@ dat2 <- readxl::read_excel(here::here("data", "methods.xlsx"))
 dat2$doi <- paste0('<a target="_blank" rel="noopener noreferrer" href="', dat2$doi,'">',dat2$doi ,"</a>")
 
 DT::datatable(dat2, 
-             options = list(searchHighlight = TRUE, fixedHeader = TRUE, colReorder = FALSE,
+             options = list(searchHighlight = TRUE, fixedHeader = TRUE, colReorder = FALSE, dom = 'Blfrtip', buttons = list("searchPanes", "excel"),
+columnDefs = list(list(
+    searchPanes = list(show = TRUE), targets = c(1, 3, 4) )),                            
  initComplete = DT::JS(
     "function(settings, json) {",
     "$(this.api().table().header()).css({'background-color': '#3e831d', 'color': '#ffffff'});",
@@ -29,7 +31,8 @@ DT::datatable(dat2,
 
 ),
              escape = FALSE, 
-             extensions = c('Responsive',
+             extensions = c('Select', 'SearchPanes', 'Buttons',
+                            'Responsive',
                             'FixedHeader', 'ColReorder')
 ) |> 
 DT::formatStyle('doi',  color = 'blue') |>
