@@ -20,7 +20,9 @@ navbar:
       menu:
         - text: "Overviews Database"
           href: data.html
-        - text: "Methods Database"
+        - text: "Methodological Overviews Database"
+          href: methodological.html          
+        - text: "Guidance Database"
           href: guidance.html 
     - text: "Charts"
       href: charts.html

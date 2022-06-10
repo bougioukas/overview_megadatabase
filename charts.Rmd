@@ -7,13 +7,15 @@ title: "Charts"
 ```{r, layout="l-body-outset", echo = FALSE}
 
 dat <- readxl::read_excel(here::here("data", "all_overviews-current_1.0.xlsx"))
+
 ```
 
 # Total number of publications: `r nrow(dat)`
 
 
 
-## Publication by year
+## Publication by year 
+*(including methodological overviews)*
 
 ```{r, layout="l-middle-outset", echo=FALSE}
 library(tidyverse)
@@ -31,3 +33,4 @@ pby %>%
 
 ```
 
+Last update `r format(Sys.Date(), "%d\\/%m\\/%Y")`
