@@ -11,11 +11,11 @@ dat <- readxl::read_excel(here::here("data", "all_overviews-current_1.0.xlsx"))
 ```
 
 # Total number of publications: `r nrow(dat)`
-
+*(including methodological overviews)*
 
 
 ## Publication by year 
-*(including methodological overviews)*
+
 
 ```{r, layout="l-middle-outset", echo=FALSE}
 library(tidyverse)

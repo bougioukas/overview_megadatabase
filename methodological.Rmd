@@ -41,7 +41,7 @@ list(
     ),
  initComplete = DT::JS(
     "function(settings, json) {",
-    "$(this.api().table().header()).css({'background-color': '#7575a3', 'color': '#f2f2f2'});",
+    "$(this.api().table().header()).css({'background-color': '#E68613', 'color': '#f2f2f2'});",
     "}")
 
 ),
