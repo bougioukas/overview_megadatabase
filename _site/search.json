@@ -4,50 +4,50 @@
       "path": "charts.html",
       "title": "Charts",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\nTotal number of publications:\r\n2329\r\n(including methodological overviews)\r\nPublication by year\r\n\r\n\r\n\r\nLast update 14/06/2022\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-06-14T00:50:48+03:00"
+      "contents": "\r\n\r\n\r\n\r\nTotal number of publications:\r\n2343\r\n(including methodological overviews)\r\nPublication by year\r\n\r\n\r\n\r\nLast update 19/06/2022\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-06-19T21:44:22+03:00"
     },
     {
       "path": "codebook.html",
       "title": "Codebook",
       "author": [],
       "contents": "\r\nData\r\nelements that are collected for each publication\r\nfirst author: the name of the first author\r\ntitle: the publication title\r\npublication year: the year when the article was\r\npublished in the issue\r\njournal: the journal where the article was\r\npublished\r\nsubject area: main subject area (based on the list\r\nof subject areas provided by medRxiv)\r\ndoi: digital object identifier of the\r\npublication\r\ncorresponding author country: the country of origin\r\nof the corresponding author. If the corresponding author reports\r\nmultiple institutional affiliations from different countries, the\r\ncountry is chosen based on the domain of the correspondence email\r\naddress\r\ncorresponding author affiliation: the affiliation\r\n(e.g., university, institute) of the corresponding author\r\ntitle terminology: nomenclature related to the\r\nevidence synthesis (e.g., overview, meta-review, umbrella review)\r\nreported in the tile of the article\r\nresearch question: type of overview based on the\r\nresearch questions (e.g., intervention, association, prediction,\r\neconomic evaluation etc.)\r\nmethod: methodological approach used in overview\r\n(e.g., systematic, living, rapid, scoping etc.)\r\nincluded studies: the type of studies that were\r\nconsidered for inclusion (only systematic reviews or other study\r\ntypes)\r\nnumber of SRs: number of included systematic\r\nreviews\r\nintervention: interventions that were examined in\r\nthe article\r\nicd11 parent: parent category of the disease (based\r\non the International Classification of Diseases 11th\r\nRevision[ICD-11])\r\nicd11 disease: disease (based on the International\r\nClassification of Diseases 11th Revision[ICD-11])\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-06-14T00:50:49+03:00"
+      "last_modified": "2022-06-19T21:44:23+03:00"
     },
     {
       "path": "data.html",
       "title": "Overviews Database",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\nTotal number of publications:\r\n2299\r\nLast update 14/06/2022\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-06-14T00:50:51+03:00"
+      "contents": "\r\n\r\n\r\n\r\nTotal number of publications:\r\n2312\r\nLast update 19/06/2022\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-06-19T21:44:25+03:00"
     },
     {
       "path": "guidance.html",
       "title": "Guidance Database",
       "author": [],
-      "contents": "\r\nMethods guidance papers\r\nfor overviews\r\nLast update 14/06/2022\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-06-14T00:50:52+03:00"
+      "contents": "\r\nMethods guidance papers\r\nfor overviews\r\nLast update 19/06/2022\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-06-19T21:44:27+03:00"
     },
     {
       "path": "index.html",
       "title": "The OMG Project",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\nThe OMG project stands for\r\n“Overviews: Methodology and\r\nGuidance”.\r\nThis website presents the first Database that contains a large number\r\nof healthcare overviews of reviews published in English. The database\r\nprovides a comprehensive source that can be freely used by all\r\nresearchers to easily identify overviews of reviews on a specific topic,\r\nto avoid duplication of effort and reduce research waste.\r\nThe tab named Databases includes:\r\nOverviews Database, a list of overviews of interventions,\r\nassociations, DTA, etc.\r\nMethodologiacal Overviews Database, a list of methodological\r\noverviews that are used to evaluate reliability, transparency, and\r\nreporting of reviews.\r\nGuidances Database, a list of methodological papers relevant to\r\noverviews are included in the tab named “Guidance Database”.\r\nThe databases will be regularly updated with new data and\r\nstudies.\r\nLast update 14/06/2022\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-06-14T00:50:53+03:00"
+      "contents": "\r\n\r\n\r\n\r\nThe OMG project stands for\r\n“Overviews: Methodology and\r\nGuidance”.\r\nThis website presents the first Database that contains a large number\r\nof healthcare overviews of reviews published in English. The database\r\nprovides a comprehensive source that can be freely used by all\r\nresearchers to easily identify overviews of reviews on a specific topic,\r\nto avoid duplication of effort and reduce research waste.\r\nThe tab named Databases includes:\r\nOverviews Database, a list of overviews of interventions,\r\nassociations, DTA, etc.\r\nMethodologiacal Overviews Database, a list of methodological\r\noverviews that are used to evaluate reliability, transparency, and\r\nreporting of reviews.\r\nGuidances Database, a list of methodological papers relevant to\r\noverviews are included in the tab named “Guidance Database”.\r\nThe databases will be regularly updated with new data and\r\nstudies.\r\nLast update 19/06/2022\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-06-19T21:44:27+03:00"
     },
     {
       "path": "methodological.html",
       "title": "Methodological Overviews Database",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\nTotal number of publications:\r\n30\r\nLast update 14/06/2022\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-06-14T00:50:54+03:00"
+      "contents": "\r\n\r\n\r\n\r\nTotal number of publications:\r\n31\r\nLast update 19/06/2022\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-06-19T21:44:28+03:00"
     },
     {
       "path": "sources.html",
       "title": "Search sources",
       "author": [],
       "contents": "\r\nThe main aim of this repository is to identify all of the published\r\noverviews of reviews relevant for health decision-making.\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-06-14T00:50:55+03:00"
+      "last_modified": "2022-06-19T21:44:29+03:00"
     }
   ],
   "collections": []
