@@ -6,12 +6,13 @@ title: "Charts"
 
 ```{r, layout="l-body-outset", echo = FALSE}
 
-dat <- readxl::read_excel(here::here("data", "all_overviews-current_1.0.xlsx"))
+dat1 <- readxl::read_excel(here::here("data", "all_overviews-current_1.0.xlsx")) |>
+  dplyr::filter(method != "methodological" | is.na(method))
 
 ```
 
-# Total number of publications: `r nrow(dat)`
-*(including methodological overviews)*
+# Total number of publications: `r nrow(dat1)`
+*(excluding methodological overviews)*
 
 
 ## Publication by year 
@@ -21,7 +22,7 @@ dat <- readxl::read_excel(here::here("data", "all_overviews-current_1.0.xlsx"))
 library(tidyverse)
 library(highcharter)
 
-pby <- dat %>% 
+pby <- dat1 %>% 
   count(`publication year`, name = "Counts")
 
 pby %>%

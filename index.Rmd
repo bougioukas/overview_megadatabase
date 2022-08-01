@@ -11,17 +11,18 @@ knitr::include_graphics("omg.png")
 
 
 The **OMG** project stands for "**O**verviews: **M**ethodology and **G**uidance".
+Part of the OMG project is the development of the **O**verviews **M**e**G**a-database(OMG-database).
 
-This website presents the first Database that contains a large number of healthcare overviews of reviews published in English. 
+This website presents the first database that contains a large number of healthcare overviews of reviews and their methodologies published in English, the **O**verviews **M**e**G**a-database(OMG-database). 
 The database provides a comprehensive source that can be freely used by all researchers to easily identify overviews of reviews on a specific topic, to avoid duplication of effort and reduce research waste. 
 
-The tab named Databases includes:
+The section Databases of the navigation menu includes:
 
-1. Overviews Database, a list of overviews of interventions, associations, DTA, etc.
+1. The Overviews Database, a list of overviews of interventions, associations, DTA, etc.
 
-2. Methodologiacal Overviews Database, a list of methodological overviews that are used to evaluate reliability, transparency, and reporting of reviews.
+2. The Methodologiacal Overviews Database, a list of methodological overviews that are used to evaluate reliability, transparency, and reporting of reviews.
 
-3. Guidances Database, a list of methodological papers relevant to overviews are included in the tab named "Guidance Database".
+3. The Guidances Database, a list of methodological papers relevant to overviews are included in the tab named "Guidance Database".
 
 The databases will be regularly updated with new data and studies.
 

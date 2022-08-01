@@ -7,6 +7,7 @@ output_dir: "_site"
 navbar:
   logo:
     image: omg.png
+  search: true
   right:
     - text: "The OMG Project"
       href: index.html
@@ -19,7 +20,7 @@ navbar:
     - text: "Databases"
       menu:
         - text: "Overviews Database"
-          href: data.html
+          href: overviews.html
         - text: "Methodological Overviews Database"
           href: methodological.html          
         - text: "Guidance Database"
@@ -29,7 +30,10 @@ navbar:
     - icon: bfa-brands fa-twitter
       href: https://twitter.com/Bugiukas
     - icon: fa-brands fa-github
-      href: https://github.com/bougioukas 
+      href: https://github.com/bougioukas/overview_megadatabase 
       
-output: distill::distill_article
+output: 
+  distill::distill_article:
+    toc: true
+
 theme: theme.css
