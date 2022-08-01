@@ -12,7 +12,8 @@ dat2 <- readxl::read_excel(here::here("data", "all_overviews-current_1.0.xlsx"))
 
 
 # Total number of publications: `r nrow(dat2)` 
-Last update `r format(Sys.Date(), "%d\\/%m\\/%Y")`
+
+Last update: `r format(Sys.Date(), "%d\\/%m\\/%Y")`
 
 ```{r, layout="l-page-outset", echo=FALSE}
 

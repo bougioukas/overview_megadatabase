@@ -4,13 +4,16 @@ title: "Guidance Database"
 
 
 # Methods guidance papers for overviews
-Last update `r format(Sys.Date(), "%d\\/%m\\/%Y")`
 
 ```{r, echo = FALSE}
 
 dat3 <- readxl::read_excel(here::here("data", "methods.xlsx"))
 
 ```
+
+Total number of publications: `r nrow(dat3)` 
+
+Last update: `r format(Sys.Date(), "%d\\/%m\\/%Y")`
 
 
 
@@ -25,7 +28,7 @@ DT::datatable(dat3,
                             fixedHeader = TRUE, 
                             colReorder = FALSE, 
                             dom = 'Blfrtip', 
-                            buttons = list("searchPanes", "excel"),
+                            buttons = list("searchPanes", "excel", "csv"),
                             language = list(searchPanes = list(collapse = "Search Filters")),
                             columnDefs = list(list(
     searchPanes = list(show = TRUE), targets = c(1, 3, 4) )),                            
