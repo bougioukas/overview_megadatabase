@@ -10,7 +10,7 @@ knitr::include_graphics("omg.png")
 ```
 
 
-The **OMG** project stands for "**O**verviews: **M**ethodology and **G**uidance".
+The **OMG** Project stands for "**O**verviews: **M**ethodology and **G**uidance".
 Part of the OMG project is the development of the **O**verviews **M**e**G**a-database(OMG-database).
 
 This website presents the first database that contains a large number of healthcare overviews of reviews and their methodologies published in English, the **O**verviews **M**e**G**a-database (OMG-database). 

@@ -22,12 +22,13 @@ dat1$doi <- paste0('<a target="_blank" rel="noopener noreferrer" href="', dat1$d
 DT::datatable(dat1, 
              options = list(searchHighlight = TRUE, 
                             fixedHeader = TRUE, 
-                            dom = 'Blfrtip', colReorder = FALSE, 
+                            dom = 'Qlfrtip', colReorder = FALSE, 
                             #scrollX = TRUE, 
-                            buttons = list("searchPanes"),
-                            language = list(searchPanes = list(collapse = "Search Filters")),
-columnDefs = list(list(
-    searchPanes = list(show = T), targets = c(1, 3, 4, 5, 7, 8, 9, 10, 11, 12, 14, 15, 16) ),
+                            searchBuilder = TRUE,
+                            #buttons = list("searchPanes"),
+                            #language = list(searchPanes = list(collapse = "Search Filters")),
+columnDefs = list(
+  #list(searchPanes = list(show = T), targets = c(1, 3, 4, 5, 7, 8, 9, 10, 11, 12, 14, 15, 16) ),
     
 list(
   targets = 2,
@@ -45,9 +46,13 @@ list(
 
 ),
              escape = FALSE, 
-             extensions = c('Select', 'SearchPanes', 'Buttons',
+             extensions = c('Select', 
+                            'SearchPanes', 
+                            'Buttons',
+                            "SearchBuilder",
                             'Responsive',
-                            'FixedHeader', 'ColReorder')
+                            'FixedHeader', 
+                            'ColReorder')
 ) |> 
 DT::formatStyle('doi',  color = 'blue') |>
 DT::formatStyle('publication year', textAlign = 'center')  
