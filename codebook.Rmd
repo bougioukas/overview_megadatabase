@@ -35,6 +35,6 @@ title: "Codebook"
 
 **intervention:** interventions that were examined in the article
 
-**icd11 parent:** parent category of the disease (based on the International Classification of Diseases 11th Revision[ICD-11]) 
+**icd11 parent:** parent category of the disease (based on the International Classification of Diseases 11th Revision [ICD-11]) 
 
-**icd11 disease:** disease (based on the International Classification of Diseases 11th Revision[ICD-11])
+**icd11 disease:** disease (based on the International Classification of Diseases 11th Revision [ICD-11])
